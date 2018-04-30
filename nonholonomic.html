@@ -98,6 +98,27 @@ Dynamics of errors
 \end{array} \right]
 	\]
 	</p>
+	
+<p style="text-align:center">
+\[ 	
+	{\Gamma\in\mathbb{R}^{5\times{5}}}=\left[ \begin{array}{ccc}
+{\mathbf{\mathcal{A}}}(\mathbf{q}) \\
+ \dot{\mathbf{q}}_d^T
+\end{array} \right]G(\mathbf{q},\dot{\mathbf{q}})
+\]
+	</p>
+	
+	\(\mathcal{A}(\mathbf{q})=[\nabla\mathcal{P}_w(\mathbf{q}_L)\quad0]\) for left-arm
+ \(\mathcal{A}(\mathbf{q})=[0\quad\nabla\mathcal{P}_w(\mathbf{q}_R)]\) for right-arm
+ 
+ To aim \(\epsilon \to 0\), asymptotically, consider \(\mathbf{{\tau}}\) as feedback \(\underline{linearization}\)
+<p style="text-align:center">
+\[
+	\mathbf{u}=\mathbf{{\tau}}\in\mathbb{R}^{5\times1}={\Gamma}^{-1}(-{\Omega}+v)
+	\]
+	</p>
+    with control law \(v\) to \(\underline{stabilize}\) the equivalent errors.
+
 
 
 
