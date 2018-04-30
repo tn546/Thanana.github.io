@@ -1,0 +1,82 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+  "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+<meta name="generator" content="jemdoc, see http://jemdoc.jaboc.net/" />
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<link rel="stylesheet" href="jemdoc.css" type="text/css" />
+<link rel="stylesheet" href="jemdoc.css" type="text/css" />
+<title>Motivation</title>
+<!-- MathJax -->
+	<script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+	</script>
+	<script type="text/x-mathjax-config">
+	MathJax.Hub.Config({
+	  TeX: { equationNumbers: { autoNumber: "AMS" } }
+	});
+	</script>
+<!-- End MathJax -->
+</head>
+<body>
+<table summary="Table for page layout." id="tlayout">
+<tr valign="top">
+<td id="layout-menu">
+<div class="menu-category">Thanana</div>
+<div class="menu-item"><a href="index.html">about</a></div>
+<div class="menu-item"><a href="cv.html">CV</a></div>
+<div class="menu-item"><a href="publication.html">Publication</a></div>
+<div class="menu-category">Research</div>
+<div class="menu-item"><a href="nonlinear.html" class="current">Non-linear&nbsp;systems</a></div>
+<div class="menu-item"><a href="actuated.html">Under-actuated</a></div>
+<div class="menu-item"><a href="nonholonomic.html">Holonomic</a></div>
+<div class="menu-item"><a href="Cyber.html">Cyber-physical systems</a></div>
+<div class="menu-category">Teaching</div>
+<div class="menu-category">Software</div>
+<div class="menu-item"><a href="robotics.html">Robotics</a></div>
+<div class="menu-item"><a href="image.html">Image&nbsp;Processing</a></div>
+</td>
+<td id="layout-content">
+<div id="toptitle">
+
+<h2>Coordinate transformation framework</h2>
+<table class="imgtable"><tr><td>
+<img src="EQ1.jpg" alt="" width="265 px" height="132 px" />&nbsp;</td>
+<td align="left"><p>A crucial problem of Path-contouring/following Control is to minimize the contour error defined as the shortest distance 
+between the actual displacement \(q(t)\in\mathbb{R}^n\) and the desired path \(\mathcal{P}_w\); 
+\(\epsilon_c(t)=\mathsf{dist}(q,\mathcal{P}_w(q_d))\equiv \displaystyle \|q-q_d\|_{\infty},&nbsp;\forall{q_d}\in\mathcal{P}_w\).
+To aim at the new coordinate framework of dynamic model, equivalent errors is addressed by utilizing the \(n−1\) equivalent 
+contour errors determining the desired path in terms of algebraic equation. It becomes the problem of stabilization 
+of Path-contouring Control. <br /></p>
+<p style="text-align:center">
+\[ 
+ \begin{bmatrix}\epsilon \\e\end{bmatrix}= \begin{bmatrix}\mathcal{P}_w(q) \\\dot{q}_d^T(q-q_d)\end{bmatrix}
+  \]
+</p></td></tr></table>
+<p>The existing control techniques can be considered to deal with such the problem 
+of stabilization. It is more practical to develop controller to deal with minimizing contour error with EQ approach 
+than conventional control framework, e.g., a time-dependent tracking control with point-stabilization.</p>
+<p><b>For conventional contouring control:</b> <br /></p>
+<p style="text-align:center">
+\[{\epsilon_c(t)\to0 \iff q(t)\to q_d(t), t \to\infty}\]
+</p><p><b>For contouring control based EQ:</b> <br /></p>
+<p style="text-align:center">
+\[{\epsilon_c(t)\to0 \iff \epsilon(t) \to 0, t \to \infty}\]
+</p><h2>Bio-inspired</h2>
+<p>One of my interested research goal is definitely to aim the soft robots inspired by biology system dealt with 
+designing/fabricating, modeling, and controlling. For example, especially, smart soft robots is challenging to 
+integrate a sensor, communication, and controller together.
+Fortunately, according to my PhD work, pneumatic artificial muscle(PAM) is one of the soft actuator, which is 
+considered compliant actuator and modeled as non-linear actuation system.
+In terms of control problem, due to high 
+complicated non-linear system, the classical control + fuzzy control is employed to be control approach based 
+on <b>model-free control and information based</b>.</p>
+<div id="footer">
+<div id="footer-text">
+Page generated 2017-06-18 21:56:49 CST, by <a href="https://github.com/wsshin/jemdoc_mathjax" target="blank">jemdoc+MathJax</a>.
+</div>
+</div>
+</td>
+</tr>
+</table>
+</body>
+</html>
