@@ -80,6 +80,26 @@ than conventional control framework, e.g., a time-dependent tracking control wit
 Contouring control problem is to seek a control law for \(u\) so that the output \(\mathbf{q}\) can
 follow the desired path \(\mathcal{P}_w\).
 The main purpose: Design as if there were no constraints using Method of \(\textbf{equivalent errors}\)
+	
+	
+	<h3>The new Control objective of contouring Control</h3> 
+Dynamics of errors
+	<p style="text-align:center">
+\[ 
+\begin{bmatrix}\ddot{\epsilon} \\ \ddot{e}\end{bmatrix}= \Omega(\mathbf{q},\dot{\mathbf{q}},t)+\Gamma(\mathbf{q},\dot{\mathbf{q}},t)\tau
+  \]
+</p>
+	
+<p style="text-align:center">
+\[ 	
+{\Omega\in\mathbb{R}^{5\times{1}}}= \left[ \begin{array}{ccc}
+\mathbf{\mathcal{A}}(\mathbf{q})f(\mathbf{q},\dot{\mathbf{q}})+\mathbf{\mathcal{B}}(\mathbf{q},\dot{\mathbf{q}}) \\    
+    \dddot{\mathbf{q}}_{d}^T(\mathbf{q}-\mathbf{q}_{d})+\ddot{\mathbf{q}}_{d}^T(\dot{\mathbf{q}}-\dot{\mathbf{q}}_{d})+\dot{\mathbf{q}}_{d}^Tf(\mathbf{q},\dot{\mathbf{q}})
+\end{array} \right]
+	\]
+	</p>
+
+
 
 <div id="footer">
 <div id="footer-text">
