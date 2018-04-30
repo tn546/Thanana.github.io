@@ -61,6 +61,23 @@ than conventional control framework, e.g., a time-dependent tracking control wit
 </p><p><b>For contouring control based EQ:</b> <br /></p>
 <p style="text-align:center">
 \[{\epsilon_c(t)\to0 \iff \epsilon(t) \to 0, t \to \infty}\]
+	
+	<h3>{Statement of purpose: applying EQ method for systems with Holonomic constraints}</h3>
+<p style="text-align:center">
+\begin{itemize}
+\item Dynamics of system: $\ddot{\mathbf{q}}=f(\dot{\mathbf{q}},\mathbf{q})+g(\dot{\mathbf{q}},\mathbf{q})u$
+\item Holonomic constraints: $\phi(\mathbf{q})=0$
+\item $n+m$ generized coordinates: $\mathbf{q}\in\mathbb{R}^{n+m}$
+\item $n$ actuating inputs: $u\in\mathbb{R}^n$
+\item $m$ constraint functions: $\phi(\mathbf{q}): \mathbb{R}^{n+m}\to\mathbb{R}^{m}$
+\item Desired path: $\mathcal{P}_w(\mathbf{q})=0; \mathbb{R}^{n+m}\to\mathbb{R}^{n-1}$
+\end{itemize}	
+	</p>
+
+\textbf{Contouring control problem} is to seek a control law for $u$ so that the output~$\mathbf{q}$~ can
+follow the desired path $\mathcal{P}_w$.\\
+\textbf{The main purpose:} Design as if there were no constraints using Method of \textbf{equivalent errors}
+	
 <div id="footer">
 <div id="footer-text">
 Page generated 2017-06-18 21:56:49 CST, by <a href="https://github.com/wsshin/jemdoc_mathjax" target="blank">jemdoc+MathJax</a>.
