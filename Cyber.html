@@ -39,62 +39,12 @@
 <div id="toptitle">
 <h1>Motivation</h1>
 </div>
-<p>	
-	<h3>Stabilization of Unstable System, Inverted Pendulum (previousely work)</h3>
-	<object width="325" height="250">
-  <param name="movie" value="https://www.youtube.com/watch?v=AVdVeymxep0" />
-  <param name="wmode" value="transparent" />
-  <embed src="https://www.youtube.com/watch?v=AVdVeymxep0"
-         type="application/x-shockwave-flash"
-         wmode="transparent" width="325" height="250" />
-</object></div>
-	</p>
-<h2>Approximation-based Approach</h2>
-</div>
-	In terms of control system, in practice, the system may pose uncertainties; modelling error, parameter variation, and/or disturbances. 
-Generally, if successful, the framework of deterministic Robust Control approach, e.g., integral sliding mode control (ISMC) design results 
-in a fixed LTI controller that controls any frozen plant with bounded uncertainty set, satisfying the given specifications.</p>
-<p>However, due to fixed gain, deterministic Robust Control may not satisfy the wide range of changing operation, 
-unknown steady-state, and the performance specifications get tighter, as well as larger uncertainty. In addition, 
-it will ensure the zero steady state at low frequency due to the integration term. 
-Consequently, the steady state error still exist in case of operation at high frequency.</p>
-<table class="imgtable"><tr><td>
-<img src="3dd.jpg" alt="" width="185 px" height="182 px" />&nbsp;</td>
-<td align="left"><p>For this reason, to overcome that drawbacks, extremum seeking control based on a model-free control technique, e.g., 
-robust adaptive controller is more attractive than conventional Robust Control approach. We has proposed Fuzzy PID 
-control with robust extended Kalman filter (REKF), which is one of the non-linear controllers in class of robust 
-adaptive controller. It is a technique to find and stabilize an a priori unknown optimal steady-state behaviour 
-without the need of more detailed information in model. As motivated, the idea is to combine an online membership 
-functions (MFs) tuning algorithm with a control design method to yield a time varying robust controller 
-based on model-free that it effectively follows the changing plant, changing operations, and/or specifications. </p>
-</td></tr></table>
-<h2>Coordinate transformation framework</h2>
-<table class="imgtable"><tr><td>
-<img src="EQ1.jpg" alt="" width="265 px" height="132 px" />&nbsp;</td>
-<td align="left"><p>A crucial problem of Path-contouring/following Control is to minimize the contour error defined as the shortest distance 
-between the actual displacement \(q(t)\in\mathbb{R}^n\) and the desired path \(\mathcal{P}_w\); 
-\(\epsilon_c(t)=\mathsf{dist}(q,\mathcal{P}_w(q_d))\equiv \displaystyle \|q-q_d\|_{\infty},&nbsp;\forall{q_d}\in\mathcal{P}_w\).
-To aim at the new coordinate framework of dynamic model, equivalent errors is addressed by utilizing the \(n−1\) equivalent 
-contour errors determining the desired path in terms of algebraic equation. It becomes the problem of stabilization 
-of Path-contouring Control. <br /></p>
-<p style="text-align:center">
-\[ 
- \begin{bmatrix}\epsilon \\e\end{bmatrix}= \begin{bmatrix}\mathcal{P}_w(q) \\\dot{q}_d^T(q-q_d)\end{bmatrix}
-  \]
-</p></td></tr></table>
-<p>The existing control techniques can be considered to deal with such the problem 
-of stabilization. It is more practical to develop controller to deal with minimizing contour error with EQ approach 
-than conventional control framework, e.g., a time-dependent tracking control with point-stabilization.</p>
-<p><b>For conventional contouring control:</b> <br /></p>
-<p style="text-align:center">
-\[{\epsilon_c(t)\to0 \iff q(t)\to q_d(t), t \to\infty}\]
-</p><p><b>For contouring control based EQ:</b> <br /></p>
-<p style="text-align:center">
-\[{\epsilon_c(t)\to0 \iff \epsilon(t) \to 0, t \to \infty}\]
+
+	
 </p><h2>Bio-inspired</h2>
 	
 	<table class="imgtable"><tr><td>
-<img src="stifness_1.jpg" alt="" width="255 px" height="182 px" />&nbsp;</td>
+<img src="AKE_optimize1.jpg" alt="" width="255 px" height="182 px" />&nbsp;</td>
 <td align="left"><p>
 	One of my interested research goal is definitely to aim the soft robots inspired by biology system dealt with 
 designing/fabricating, modeling, and controlling. For example, especially, smart soft robots is challenging to 
