@@ -88,6 +88,31 @@ follow the desired path \(\mathcal{P}_w\).
 The main purpose: Design as if there were no constraints using Method of \(\textbf{equivalent errors}\)
 	
 	
+	<h2>Coordinate transformation framework</h2>
+<table class="imgtable"><tr><td>
+<img src="EQ1.jpg" alt="" width="265 px" height="132 px" />&nbsp;</td>
+<td align="left"><p>A crucial problem of Path-contouring/following Control is to minimize the contour error defined as the shortest distance 
+between the actual displacement \(q(t)\in\mathbb{R}^n\) and the desired path \(\mathcal{P}_w\); 
+\(\epsilon_c(t)=\mathsf{dist}(q,\mathcal{P}_w(q_d))\equiv \displaystyle \|q-q_d\|_{\infty},&nbsp;\forall{q_d}\in\mathcal{P}_w\).
+To aim at the new coordinate framework of dynamic model, equivalent errors is addressed by utilizing the \(n−1\) equivalent 
+contour errors determining the desired path in terms of algebraic equation. It becomes the problem of stabilization 
+of Path-contouring Control. <br /></p>
+<p style="text-align:center">
+\[ 
+ \begin{bmatrix}\epsilon \\e\end{bmatrix}= \begin{bmatrix}\mathcal{P}_w(q) \\\dot{q}_d^T(q-q_d)\end{bmatrix}
+  \]
+</p></td></tr></table>
+<p>The existing control techniques can be considered to deal with such the problem 
+of stabilization. It is more practical to develop controller to deal with minimizing contour error with EQ approach 
+than conventional control framework, e.g., a time-dependent tracking control with point-stabilization.</p>
+<p><b>For conventional contouring control:</b> <br /></p>
+<p style="text-align:center">
+\[{\epsilon_c(t)\to0 \iff q(t)\to q_d(t), t \to\infty}\]
+</p><p><b>For contouring control based EQ:</b> <br /></p>
+<p style="text-align:center">
+\[{\epsilon_c(t)\to0 \iff \epsilon(t) \to 0, t \to \infty}\]
+</p><h2>Bio-inspired</h2>
+	
 	<h3>The new Control objective of contouring Control</h3> 
 Dynamics of errors
 	<p style="text-align:center">
