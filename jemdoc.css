@@ -58,7 +58,7 @@ pre, tt {
 	font-family: monaco, monospace;
 }
 
-a, a > tt {
+a, a > tt { 
 	color: #224b8d;
 	text-decoration: none;
 }
