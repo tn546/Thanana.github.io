@@ -8,7 +8,7 @@ table#tlayout {
 
 body {
 	background: white;
-	font-family: Geneva;
+	font-family: Arial;
 	font-size 17px;
 	padding-bottom: 8px;
 	margin: 0;
@@ -55,7 +55,7 @@ tt {
 
 pre, tt {
 	font-size: 90%;
-	font-family: Geneva, monospace;
+	font-family: Aerial, monospace;
 }
 
 a, a > tt { 
