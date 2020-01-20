@@ -1,0 +1,73 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+  "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+<meta name="generator" content="jemdoc, see http://jemdoc.jaboc.net/" />
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<link rel="stylesheet" href="jemdoc.css" type="text/css" />
+<link rel="stylesheet" href="jemdoc.css" type="text/css" />
+<title>Publication</title>
+<!-- MathJax -->
+	<script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+	</script>
+	<script type="text/x-mathjax-config">
+	MathJax.Hub.Config({
+	  TeX: { equationNumbers: { autoNumber: "AMS" } }
+	});
+	</script>
+<!-- End MathJax -->
+</head>
+<body>
+<table summary="Table for page layout." id="tlayout">
+<tr valign="top">
+<td id="layout-menu">
+<div class="menu-category">Thanana</div>
+<div class="menu-item"><a href="index.html">about</a></div>
+<div class="menu-item"><a href="Publication.html">Publication</a></div>
+<div class="menu-category">Research</div>
+<div class="menu-item"><a href="nonlinear.html">Unstable&nbsp;systems</a></div>
+<div class="menu-item"><a href="nonholonomic.html">Holonomic</a></div>
+<div class="menu-item"><a href="Cyber.html">Data-driven control</a></div>
+<div class="menu-item"><a href="large-scale.html">Large-scale system</a></div>
+<div class="menu-category">Teaching</div>
+<div class="menu-category">Software</div>
+<div class="menu-item"><a href="robotics.html">Robotics</a></div>
+<div class="menu-item"><a href="image.html">Image&nbsp;Processing</a></div>
+</td>
+<td id="layout-content">
+<div id="toptitle">
+<h1>Publication</h1>
+</div>
+
+	
+</p><h2>Preprint</h2>
+	
+                 
+                    <ol>
+                        <li><p>\(''\)Learning-based Compliant Tracking Control of Pneumatic
+Artificial Muscle\(''\), submitted to TMECH</p>
+                        </li>   
+			  <li><p>\(''\)Robust Learning of Inverse Dynamics\(''\), to be submitted</p>
+                        </li> 
+			    <li><p>\(''\)Set-valued Optimization for Data-driven PID controller\(''\), to be submitted</p>
+                        </li> 
+			   </ol> 
+			   
+	
+	
+</p><h2>Journal \(\&\) conference</h2>
+	
+	
+                    <a href=https://scholar.google.com/citations?hl=en&user=U1PDxDEAAAAJ&view_op=list_works&gmla=AJsN-F5kLgWi7xSyTpDZ0x6m6hKBhNts4DW0Z3aBKmSKvK6Qt3KvjisClbzVDeQEbNQ3hvcSAqCpFuCH-RpIzMLl0ItpwA1VP8-fJFFG-hvSbkOMSJnn1wM
+"><img src="google-scholar-logo.png" style="width:1.2em;margin-right:.6em;" alt="ORCID iD icon">Google Scholar Profile</a></div> </p>
+	
+<div id="footer">
+<div id="footer-text">
+Page generated 2019-07-24 18:56:59 CST, by <a href="https://github.com/wsshin/jemdoc_mathjax" target="blank">jemdoc+MathJax</a>.
+</div>
+</div>
+</td>
+</tr>
+</table>
+</body>
+</html>
