@@ -44,7 +44,7 @@
 <h2>Motivation</h2>
 <p>	In manufacturing systems (i.e. automation 
 	and machining), <i>fast response</i> and <i>high precision</i> motion control is an indispensable method
-	such that contouring control, which has been successful for such multi-axis motion control, is considered for a task.</p>
+	such that contouring control, which has been successful for such multi-axis motion control, is addressed.</p>
 It is important to point out a constraint, however, most of the existing contouring control approaches have only referred to the designs of 
 	controller for the un-constraint motion control systems. Nevertheless, the mechanism of multi-axis machines (e.g., dual-arm robot manipulators) commonly 
 	exists the constraint motion systems, especially, contouring control in machining system (e.g., the end-effector of robot) 
@@ -148,13 +148,13 @@ Dynamics of errors
 	\(\mathcal{A}(\mathbf{q})=[\nabla\mathcal{P}_w(\mathbf{q}_L)\quad0]\) for left-arm </p>
 	\(\mathcal{A}(\mathbf{q})=[0\quad\nabla\mathcal{P}_w(\mathbf{q}_R)]\) for right-arm </p>
  
- To aim \(\epsilon \to 0\), asymptotically, consider \(\mathbf{{\tau}}\) as feedback \(\underline{linearization}\)
+ To aim \(\epsilon \to 0\), asymptotically, consider \(\mathbf{{\tau}}\) as feedback <u>linearization</u>
 <p style="text-align:left">
 \[
 	\mathbf{u}=\mathbf{{\tau}}\in\mathbb{R}^{5\times1}={\Gamma}^{-1}(-{\Omega}+v)
 	\]
 	</p>
-    with control law \(v\) to \(\underline{stabilize}\) the equivalent errors.
+with control law \(v\) to <u>stabilize</u> the equivalent errors.
 	
 <div id="footer">
 <div id="footer-text">
